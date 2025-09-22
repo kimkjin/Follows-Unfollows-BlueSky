@@ -83,7 +83,6 @@
         }
     });
 
-    // Iniciar o observador de mutações no corpo do documento
     observer.observe(document.body, { childList: true, subtree: true });
 
     // Teclas de atalho alt + K para ativar os follow e alt + L para unfollows
